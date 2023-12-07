@@ -73,7 +73,7 @@ model = st.sidebar.selectbox(label="Model", options=["Yi-34B"])
 #     min_value=0.0,
 #     max_value=1.0,
 #     value=0.75,
-#     step-0.01,
+#     step=0.01,
 #     format="%f",
 # )
 
