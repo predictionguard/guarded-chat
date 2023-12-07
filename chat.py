@@ -43,7 +43,7 @@ st.sidebar.markdown(
 )
 
 st.sidebar.markdown("## Model Configuration")
-model = st.sidebar.selectbox(label="Model", options=["Yi-34B"])
+model = st.sidebar.selectbox(label="Model", options=["Neural-Chat-7B", "Notus-7B", "Zephyr-7B-Beta"])
 # temperature = st.sidebar.slider(
 #     label="Temperature",
 #     min_value=0.0,
